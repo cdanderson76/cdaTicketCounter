@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url("./atlantis.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    height: 96.7vh;
+}
+
+.container {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: Roboto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.entries {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+}
+
+button {
+    border: solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: sandybrown;
+}
+
+#save-btn {
+    background: skyblue;
+}
+
