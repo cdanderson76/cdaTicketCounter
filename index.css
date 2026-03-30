@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-image: url("./atlantis.webp");
+    background-image: url("./images/atlantis.webp");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Roboto;
@@ -47,7 +47,15 @@ button {
     background: sandybrown;
 }
 
+#decrement-btn {
+    background: #596719
+}
+
 #save-btn {
     background: skyblue;
 }
 
+
+#reset-btn {
+    background: #3E6C6A
+}
